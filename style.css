@@ -1,0 +1,36 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 80vw;
+  margin: auto;
+  text-align: center;
+}
+
+.container > h1{
+  background-color: red;
+}
+
+.container > .list{
+  background-color: #cecece;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+.box{
+  border: 1px solid red;
+  margin: 10px 10px;
+  background-color: darkgrey;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.fas{
+  font-size: 22px;
+  margin: 0 10px;
+}
